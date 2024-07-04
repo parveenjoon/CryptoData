@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #1d1c1c;
+    color: #ddd;
+}
+
+h1 {
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.controls input, .controls button {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1d1c1c;
+    color: #ddd;
+}
+
+.controls input {
+    flex: 1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px 15px;
+    /* border: 1px solid #ddd; */
+    text-align: left;
+}
+
+th {
+    background-color: #1d1c1c;
+    color: #ddd;
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid #ddd;
+}
+
+.positive {
+    color: green;
+}
+
+.negative {
+    color: red;
+}
